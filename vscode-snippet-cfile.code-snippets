@@ -1,0 +1,87 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"cfile source template": {
+		"prefix": "cfile-source",
+		"body": [
+		  "",
+		  "/* Includes ------------------------------------------------------------------*/",
+		  "#include \"${TM_FILENAME_BASE}.h\"",
+		  "$1",
+		  "#ifdef __cplusplus",
+		  "extern \"C\" {",
+		  "#endif",
+		  "",
+		  "/* Private includes ----------------------------------------------------------*/",
+		  "",
+		  "/* Private typedef -----------------------------------------------------------*/",
+		  "",
+		  "/* Private define ------------------------------------------------------------*/",
+		  "",
+		  "/* Private macro -------------------------------------------------------------*/",
+		  "",
+		  "/* Private variables ---------------------------------------------------------*/",
+		  "",
+		  "/* External variables --------------------------------------------------------*/",
+		  "",
+		  "/* External functions --------------------------------------------------------*/",
+		  "",
+		  "/* Private function prototypes -----------------------------------------------*/",
+		  "",
+		  "/* Private functions ---------------------------------------------------------*/",
+		  "",
+		  "/* Exported functions --------------------------------------------------------*/",
+		  "",
+		  "#ifdef __cplusplus",
+		  "}",
+		  "#endif",
+		  ""
+		],
+		"description": "cfile source template"
+	  },
+	  "cfile header template": {
+		"prefix": "cfile-header",
+		"body": [
+		  "",
+		  "#ifndef __${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H",
+		  "#define __${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H",
+		  "$1",
+		  "#ifdef __cplusplus",
+		  "extern \"C\" {",
+		  "#endif",
+		  "",
+		  "/* Includes ------------------------------------------------------------------*/",
+		  "#include <stdint.h>",
+		  "",
+		  "/* Exported types ------------------------------------------------------------*/",
+		  "",
+		  "/* Exported constants --------------------------------------------------------*/",
+		  "",
+		  "/* Exported macro ------------------------------------------------------------*/",
+		  "",
+		  "/* Exported functions prototypes ---------------------------------------------*/",
+		  "",
+		  "#ifdef __cplusplus",
+		  "}",
+		  "#endif",
+		  "",
+		  "#endif  // __${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H",
+		  ""
+		],
+		"description": "cfile header template"
+	  }
+}
