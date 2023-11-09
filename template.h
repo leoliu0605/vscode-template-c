@@ -17,7 +17,9 @@ extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
+#include <stdbool.h>
 #include <stdint.h>
+#include <stdio.h>
 
 /* Exported types ------------------------------------------------------------*/
 
