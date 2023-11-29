@@ -9,8 +9,8 @@
  *
  */
 
-#ifndef __${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H
-#define __${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H
+#ifndef __${TM_FILENAME_BASE / (.*) / ${1 : / upcase } / } _H
+#define __$ {TM_FILENAME_BASE / (.*) / ${1 : / upcase} / } _H
 
 #ifdef __cplusplus
 extern "C" {
@@ -28,9 +28,9 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 
-/* Exported macro ------------------------------------------------------------*/
-
 /* Exported functions prototypes ---------------------------------------------*/
+
+/* Exported macro ------------------------------------------------------------*/
 
 #ifdef __cplusplus
 }
