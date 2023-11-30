@@ -25,9 +25,9 @@ extern "C" {
 #include <stdlib.h>
 #include <string.h>
 
-/* Private function prototypes -----------------------------------------------*/
-
 /* Private typedef -----------------------------------------------------------*/
+
+/* Private function prototypes -----------------------------------------------*/
 
 /* External variables --------------------------------------------------------*/
 
