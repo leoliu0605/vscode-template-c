@@ -16,7 +16,9 @@
 extern "C" {
 #endif
 
-/* Includes ------------------------------------------------------------------*/
+/*  */
+#pragma region includes
+
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
@@ -24,13 +26,22 @@ extern "C" {
 #include <stdlib.h>
 #include <string.h>
 
-/* Exported types ------------------------------------------------------------*/
+#pragma endregion includes
 
-/* Exported constants --------------------------------------------------------*/
+/*  */
+#pragma region typedef
 
-/* Exported functions prototypes ---------------------------------------------*/
+#pragma endregion typedef
 
-/* Exported macro ------------------------------------------------------------*/
+/*  */
+#pragma region defines
+
+#pragma endregion defines
+
+/*  */
+#pragma region Exported Functions
+
+#pragma endregion Exported Functions
 
 #ifdef __cplusplus
 }

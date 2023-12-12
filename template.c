@@ -9,14 +9,14 @@
  *
  */
 
-/* Includes ------------------------------------------------------------------*/
 #include "${TM_FILENAME_BASE}.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-/* Private includes ----------------------------------------------------------*/
+/*  */
+#pragma region includes
 
 #include <stdbool.h>
 #include <stddef.h>
@@ -25,23 +25,42 @@ extern "C" {
 #include <stdlib.h>
 #include <string.h>
 
-/* Private typedef -----------------------------------------------------------*/
+#pragma endregion includes
 
-/* Private function prototypes -----------------------------------------------*/
+/*  */
+#pragma region typedef
 
-/* External variables --------------------------------------------------------*/
+#pragma endregion typedef
 
-/* Private variables ---------------------------------------------------------*/
+/*  */
+#pragma region Private Function Prototypes
 
-/* External functions --------------------------------------------------------*/
+#pragma endregion Private Function Prototypes
 
-/* Private macro -------------------------------------------------------------*/
+/*  */
+#pragma region defines
 
-/* Private define ------------------------------------------------------------*/
+#pragma endregion defines
 
-/* Exported functions --------------------------------------------------------*/
+/*  */
+#pragma region variables
 
-/* Private functions ---------------------------------------------------------*/
+#pragma endregion variables
+
+/*  */
+#pragma region External Functions
+
+#pragma endregion External Functions
+
+/*  */
+#pragma region Exported Functions
+
+#pragma endregion Exported Functions
+
+/*  */
+#pragma region Private Functions
+
+#pragma endregion Private Functions
 
 #ifdef __cplusplus
 }
