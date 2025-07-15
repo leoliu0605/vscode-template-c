@@ -1,4 +1,4 @@
-# template-c
+# vscode-template-c
 
 ## Usage
 
